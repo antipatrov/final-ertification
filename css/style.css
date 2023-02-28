@@ -31,6 +31,17 @@ body {
 
 .text {
   line-height: 1.5;
+  max-width: 550px;
+  min-height: 81px;
+  /* text / body */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  /* or 27px */
+  /* text / secondary */
+  color: #8794BA;
 }
 
 .header__top {
@@ -150,7 +161,17 @@ body {
 }
 
 .header__text {
-  margin-bottom: 49px;
+  max-width: 550px;
+  height: 81px;
+  /* text / body */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  /* or 27px */
+  /* text / secondary */
+  color: #8794BA;
 }
 
 .header__text > p {
@@ -775,7 +796,7 @@ body {
     top: 1px;
   }
   .header__row {
-    padding-top: 71px;
+    padding-top: 0px;
     padding-bottom: 60px;
     display: flex;
     flex-direction: column-reverse;
