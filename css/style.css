@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import "./reset.css";
 body {
+  width: 100%;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: #8794ba;
@@ -696,7 +697,7 @@ body {
     background-image: url("./img/header/menu-icon.png");
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   .logo-img {
     display: block;
   }
@@ -799,9 +800,11 @@ body {
     /* or 37px */
     color: #FFFFFF;
     margin-top: 26px;
+    margin-left: 20px;
   }
   .header__text {
     margin-bottom: 49px;
+    margin-left: 20px;
     width: 335px;
     min-height: 81px;
     /* text / body */
@@ -868,6 +871,7 @@ body {
   .main {
     padding-top: 38px;
     padding-bottom: 109px;
+    overflow-x: hidden;
   }
   .features {
     padding-bottom: 130px;
@@ -985,9 +989,32 @@ body {
     box-shadow: 4px 4px 12px rgba(137, 137, 162, 0.122);
     border-radius: 8px;
   }
+  .card {
+    min-width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 340px;
+    background-color: #0f1f4b;
+    box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
+    border-radius: 30px;
+    text-align: center;
+  }
+  .card-white {
+    background-color: #fff;
+    box-shadow: 0px 18px 50px -15px #060f28;
+  }
+  .price__top-title > * {
+    padding-bottom: 30px;
+    color: #fff;
+  }
+  .price__top > p {
+    max-width: 335px;
+  }
   .price__card {
     display: flex;
     justify-content: center;
+    gap: 20px;
   }
   .btn--red {
     background: #ef2a82;
@@ -1000,7 +1027,7 @@ body {
     border-radius: 68px;
     height: 50px;
     width: 335px;
-    left: 37px;
+    margin-left: 20px;
     top: 261px;
     border-radius: 68px;
     padding: 10px 83px 10px 83px;
