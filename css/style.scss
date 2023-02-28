@@ -998,8 +998,8 @@
         }
         .price__card {
             display: flex;
-            justify-content: center;
             gap: 20px;
+            overflow-x: scroll;
         }
         .btn--red {
             background: #ef2a82;
